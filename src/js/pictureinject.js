@@ -14,6 +14,8 @@
         that.pictureHtml = function(element)
         {
             desktop = $(element).data('file-image-desktop');
+            console.log(element);
+            console.log(desktop);
             desktop_alt = desktop.split('/');
 
             mobile = $(element).data('file-image-mobile');
