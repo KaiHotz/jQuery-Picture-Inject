@@ -33,7 +33,7 @@
 
         that.init = function()
         {
-            $('.bg-image').each(function(index, el)
+            $('.picture-inject').each(function(index, el)
             {
                 $(this).append(that.pictureHtml(this))
             });
